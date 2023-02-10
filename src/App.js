@@ -1,22 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import ImageGenerator from './get_image';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Cih Psange</h1>
+        <p>Created by figo mager</p>
+        <ImageGenerator className="image-column"></ImageGenerator>
       </header>
     </div>
   );
