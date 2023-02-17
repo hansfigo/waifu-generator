@@ -15,8 +15,8 @@ function App() {
     <div className="w-full">
       <Navbar GetImages={GetImages} />
 
-      <div className='flex justify-center min-h-full pt-20 bg-white'>
-        <div className='flex bg-white justify center'>
+      <div className='flex justify-center min-h-full pt-2'>
+        <div className='flex justify center'>
         </div>
         <div className='flex flex-wrap items-center justify-center max-w-[100%]'>
           {images.map((data, index) => (
